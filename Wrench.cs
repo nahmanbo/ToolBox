@@ -5,7 +5,7 @@ public class Wrench : Tool
     //====================================
     //           Constructor
     //====================================
-    public Wrench() : base("Wrench", "1.5kg")
+    public Wrench() : base("Wrench", "6.5kg")
     {
     }
     
@@ -19,6 +19,6 @@ public class Wrench : Tool
 
     public override void Use()
     {
-        Console.WriteLine("The wrench is currently in use");
+        Console.WriteLine("Wrench is tightening a bolt!");
     }
 }

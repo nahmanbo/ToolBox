@@ -1,11 +1,11 @@
 namespace ToolBox;
 
-public class Saw : Tool
+public class WireStripper : Tool
 {
     //====================================
     //           Constructor
     //====================================
-    public Saw() : base("Saw", "4.5kg")
+    public WireStripper() : base("WireStripper", "3.5kg")
     {
     }
     
@@ -19,6 +19,6 @@ public class Saw : Tool
 
     public override void Use()
     {
-        Console.WriteLine("Saw is cutting through wood!");
+        Console.WriteLine("WireStripper is removing insulation from a wire!");
     }
 }
