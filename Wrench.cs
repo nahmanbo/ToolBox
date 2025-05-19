@@ -1,11 +1,11 @@
 namespace ToolBox;
 
-public class Hammer : Tool
+public class Wrench : Tool
 {
     //====================================
     //           Constructor
     //====================================
-    public Hammer() : base("Hammer", "1.5kg")
+    public Wrench() : base("Wrench", "1.5kg")
     {
     }
     
@@ -19,6 +19,6 @@ public class Hammer : Tool
 
     public override void Use()
     {
-        Console.WriteLine("The hammer is currently in use");
+        Console.WriteLine("The wrench is currently in use");
     }
 }
