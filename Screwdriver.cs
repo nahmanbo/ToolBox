@@ -5,7 +5,7 @@ public class Screwdriver : Tool
     //====================================
     //           Constructor
     //====================================
-    public Screwdriver() : base("Screwdriver", "1.5kg")
+    public Screwdriver() : base("Screwdriver", "5.5kg")
     {
     }
     
@@ -19,7 +19,7 @@ public class Screwdriver : Tool
 
     public override void Use()
     {
-        Console.WriteLine("The screwdriver is currently in use");
+        Console.WriteLine("Screwdriver is turning a screw!");
     }
 }
 

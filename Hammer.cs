@@ -5,7 +5,7 @@ public class Hammer : Tool
     //====================================
     //           Constructor
     //====================================
-    public Hammer() : base("Hammer", "1.5kg")
+    public Hammer() : base("Hammer", "2.5kg")
     {
     }
     
@@ -19,6 +19,6 @@ public class Hammer : Tool
 
     public override void Use()
     {
-        Console.WriteLine("The hammer is currently in use");
+        Console.WriteLine("Hammer is hitting a nail!");
     }
 }

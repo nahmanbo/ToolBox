@@ -19,6 +19,6 @@ public class Drill : Tool
 
     public override void Use()
     {
-        Console.WriteLine("The drill is currently in use");
+        Console.WriteLine("Drill is making a hole!");
     }
 }

@@ -5,7 +5,7 @@ public class PipeCutter : Tool
     //====================================
     //           Constructor
     //====================================
-    public PipeCutter() : base("PipeCutter", "1.5kg")
+    public PipeCutter() : base("PipeCutter", "3.5kg")
     {
     }
     
@@ -19,6 +19,6 @@ public class PipeCutter : Tool
 
     public override void Use()
     {
-        Console.WriteLine("The pipeCutter is currently in use");
+        Console.WriteLine("PipeCutter is slicing a pipe!");
     }
 }

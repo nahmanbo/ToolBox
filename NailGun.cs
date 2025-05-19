@@ -1,11 +1,11 @@
 namespace ToolBox;
 
-public class Saw : Tool
+public class NailGun : Tool
 {
     //====================================
     //           Constructor
     //====================================
-    public Saw() : base("Saw", "4.5kg")
+    public NailGun() : base("NailGun", "5.5kg")
     {
     }
     
@@ -19,6 +19,6 @@ public class Saw : Tool
 
     public override void Use()
     {
-        Console.WriteLine("Saw is cutting through wood!");
+        Console.WriteLine("NailGun is shooting nails with precision!");
     }
 }
